@@ -2,7 +2,7 @@
 
 This is source code of following paper. If using it in your research, please cite our paper.
 
-
+*Hanrui Wang, Xingbo Dong, Zhe Jin, "Heterogeneous face recognition using subspace projection hashing," 2020.*
 
 Partial codes refers to Kai Li's paper, please also cite this paper if using the code.
 
