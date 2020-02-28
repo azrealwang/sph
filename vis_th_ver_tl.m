@@ -123,16 +123,16 @@ for n = 1:times
     % Train pre model
     pre_model = [];
     fprintf(' ## Train %d - Pre-train model\n',n);
-    [~, pre_model] = sph_tl(train_data_pre, opts, maxIters, pre_model);
+    [~, pre_model] = sph_il(train_data_pre, opts, maxIters, pre_model);
     % Train new model and encode
     fprintf(' ## Train %d - Train new model\n',n);
-    [~, model] = sph_tl(train_data_npe, opts, maxIters, pre_model);
-    [test_code_pre, ~] = sph_tl(test_data_pre, opts, maxIters, pre_model, model);
+    [~, model] = sph_il(train_data_npe, opts, maxIters, pre_model);
+    [test_code_pre, ~] = sph_il(test_data_pre, opts, maxIters, pre_model, model);
     Hxt_pre = test_code_pre.Hx'; Hyt_pre = test_code_pre.Hy';
-    [test_code_npe, ~] = sph_tl(test_data_npe, opts, maxIters, pre_model, model);
+    [test_code_npe, ~] = sph_il(test_data_npe, opts, maxIters, pre_model, model);
     Hxt_npe = test_code_npe.Hx'; Hyt_npe = test_code_npe.Hy';
     Hxt = [Hxt_pre;Hxt_npe];Hyt = [Hyt_pre;Hyt_npe];
-    %% sph-TL match
+    %% sph-il match
     dist_type = 'jaccard';
     [EER] = performance_ver(Hxt,Hyt,expression_set,offset,default_set,dist_type);
     test(n,1) = mean(EER(:));
@@ -184,6 +184,6 @@ for n = 1:times
 end
 %% Avg
 test_avg = mean(test,1);
-fprintf(' ## Final SPH-TL EER: vis vs thermal %.4f;vis vs vis %.4f;thermal vs thermal %.4f\n', test_avg(1,1), test_avg(1,2), test_avg(1,3));
+fprintf(' ## Final SPH-IL EER: vis vs thermal %.4f;vis vs vis %.4f;thermal vs thermal %.4f\n', test_avg(1,1), test_avg(1,2), test_avg(1,3));
 test_all_avg = mean(test_all,1);
 fprintf(' ## Final SPH EER: vis vs thermal %.4f;vis vs vis %.4f;thermal vs thermal %.4f\n', test_all_avg(1,1), test_all_avg(1,2), test_all_avg(1,3));

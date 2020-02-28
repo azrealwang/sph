@@ -1,4 +1,4 @@
-function [code, model] = sph_tl(data, opts, maxIters, pre_model, model)
+function [code, model] = sph_il(data, opts, maxIters, pre_model, model)
 % If no model is provided, learn the model first
 if nargin == 4
     model = trainCMRSH(data, opts, maxIters, pre_model);
