@@ -16,7 +16,7 @@ vis_nir.m: For visible-nir face recognition on TDFace dataset;
 
 vis_th_r1.m: Rank-1 rate for visible-thermal face recognition on EURECOM dataset;
 
-vis_th_ver_tl.m: EER for visible-thermal face recognition on EURECOM dataset;
+vis_th_ver_il.m: EER for visible-thermal face recognition on EURECOM dataset;
 
 Folder "sph": Proposed hashing method and incremental learning strategy;
 
