@@ -1,8 +1,8 @@
-# HETEROGENEOUS FACE RECOGNITION USING SUBSPACE PROJECTION HASHING
+# Cross-spectrum Face Recognition Using Subspace Projection Hashing
 
 This is source code of following paper. If using it in your research, please cite our paper.
 
-*Hanrui Wang, Xingbo Dong, Zhe Jin, "Heterogeneous face recognition using subspace projection hashing," 2020.*
+*Hanrui Wang, Xingbo Dong, Zhe Jin, Jean-Luc Dugelay, Massimo Tistarelli, "Cross-spectrum Face Recognition Using Subspace Projection Hashing," 2020.*
 
 Partial codes refers to Kai Li's paper, please also cite this paper if using the code.
 
