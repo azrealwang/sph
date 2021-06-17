@@ -65,5 +65,5 @@ for n = 1:times
 	test = [test [mAPxy;mAPyx]];
 end
 %% Avg
-test = mean(test,2);
-fprintf(' ## Final mAPxy %.4f/mAPyx %.4f.\n', test(1,1), test(2,1));
+test_final = mean(test,2);
+fprintf(' ## Final mAPxy %.4f/mAPyx %.4f.\n', test_final(1,1), test_final(2,1));

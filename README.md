@@ -2,7 +2,7 @@
 
 This is source code of following paper. If using it in your research, please cite our paper.
 
-*Hanrui Wang, Xingbo Dong, Zhe Jin, Jean-Luc Dugelay, Massimo Tistarelli, "Cross-spectrum Face Recognition Using Subspace Projection Hashing," 2020.*
+*Wang, H., Dong, X., Jin, Z., Dugelay, J. L., & Tistarelli, M. (2021, January). Cross-spectrum Face Recognition Using Subspace Projection Hashing. In 2020 25th International Conference on Pattern Recognition (ICPR) (pp. 615-622). IEEE.*
 
 Partial codes refers to Kai Li's paper, please also cite this paper if using the code.
 

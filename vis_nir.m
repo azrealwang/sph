@@ -79,5 +79,5 @@ for n = 1:times
     disp(test(n,:));
 end
 %% Calculate avg
-test = mean(test,1);
-fprintf(' ## Final Rank-1 rate: vis vs nir %.4f;vis vs vis %.4f;nir vs nir %.4f\n', test(1,1), test(1,2), test(1,3));
+test_final = mean(test,1);
+fprintf(' ## Final Rank-1 rate: vis vs nir %.4f;vis vs vis %.4f;nir vs nir %.4f\n', test_final(1,1), test_final(1,2), test_final(1,3));
