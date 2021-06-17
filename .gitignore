@@ -1,1 +1,5 @@
 .DS_Store
+embeddings_th.mat
+embeddings_vis.mat
+TD_nir.mat
+TD_vis.mat
