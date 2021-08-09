@@ -1,7 +1,20 @@
 # Cross-spectrum Face Recognition Using Subspace Projection Hashing
 
-This is source code of following paper. If using it in your research, please cite our paper.
+## Introduction
 
+image_text.m: For image-text retrieval on Wiki dataset;
+
+vis_nir.m: For visible-nir face recognition on TDFace dataset;
+
+vis_th_r1.m: Rank-1 rate for visible-thermal face recognition on EURECOM dataset;
+
+vis_th_ver_il.m: EER for visible-thermal face recognition on EURECOM dataset;
+
+Folder "sph": Proposed hashing method and incremental learning strategy;
+
+## Citation
+
+If using this project in your research, please cite our paper.
 ```
 @inproceedings{wang2021cross,
   title={Cross-spectrum Face Recognition Using Subspace Projection Hashing},
@@ -12,9 +25,7 @@ This is source code of following paper. If using it in your research, please cit
   organization={IEEE}
 }
 ```
-
 Partial codes refers to Kai Li's paper, please also cite this paper if using the code.
-
 ```
 @article{li2016linear,
   title={Linear subspace ranking hashing for cross-modal retrieval},
@@ -28,17 +39,7 @@ Partial codes refers to Kai Li's paper, please also cite this paper if using the
 }
 ```
 
-## Introduction
 
-image_text.m: For image-text retrieval on Wiki dataset;
-
-vis_nir.m: For visible-nir face recognition on TDFace dataset;
-
-vis_th_r1.m: Rank-1 rate for visible-thermal face recognition on EURECOM dataset;
-
-vis_th_ver_il.m: EER for visible-thermal face recognition on EURECOM dataset;
-
-Folder "sph": Proposed hashing method and incremental learning strategy;
 
 ## Note
 EURECOM and TDFace feature data is not released without the permision from author.
