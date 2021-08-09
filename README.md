@@ -2,11 +2,31 @@
 
 This is source code of following paper. If using it in your research, please cite our paper.
 
-*Wang, H., Dong, X., Jin, Z., Dugelay, J. L., & Tistarelli, M. (2021, January). Cross-spectrum Face Recognition Using Subspace Projection Hashing. In 2020 25th International Conference on Pattern Recognition (ICPR) (pp. 615-622). IEEE.*
+```
+@inproceedings{wang2021cross,
+  title={Cross-spectrum Face Recognition Using Subspace Projection Hashing},
+  author={Wang, Hanrui and Dong, Xingbo and Jin, Zhe and Dugelay, Jean-Luc and Tistarelli, Massimo},
+  booktitle={2020 25th International Conference on Pattern Recognition (ICPR)},
+  pages={615--622},
+  year={2021},
+  organization={IEEE}
+}
+```
 
 Partial codes refers to Kai Li's paper, please also cite this paper if using the code.
 
-*Kai Li, Guojun Qi, Jun Ye and Kien A. Hua, "Linear Subspace Ranking Hashing for Cross-modal Retrieval," IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), September 2016.*
+```
+@article{li2016linear,
+  title={Linear subspace ranking hashing for cross-modal retrieval},
+  author={Li, Kai and Qi, Guo-Jun and Ye, Jun and Hua, Kien A},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={39},
+  number={9},
+  pages={1825--1838},
+  year={2016},
+  publisher={IEEE}
+}
+```
 
 ## Introduction
 
